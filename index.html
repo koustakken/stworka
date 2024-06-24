@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stworka</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__body">
+        <div class="card__body-status">
+          0/7
+          <svg
+            class="card__status-svg"
+            width="60"
+            height="60"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle class="card__status-circle" cx="30" cy="30" r="25"></circle>
+            <circle
+              class="card__status-progress"
+              cx="30"
+              cy="30"
+              r="25"
+            ></circle>
+          </svg>
+        </div>
+        <div class="card__body-content">
+          <div class="card__body-badge">Чеклист</div>
+          <div class="card__body-title">Выполнено: 0 из 7 действий</div>
+          <div class="card__body-subtitle">
+            Следующие действие: Созвониться с клиетом до 23.05.24 12:00
+          </div>
+        </div>
+      </div>
+      <div class="card__actions">
+        <button class="card__actions-btn">Открыть чеклист</button>
+      </div>
+    </div>
+  </body>
+</html>
